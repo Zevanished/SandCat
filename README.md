@@ -17,11 +17,10 @@ Sand Cat prevents all of that by combining end-to-end encrypted communication wi
 It’s not just a messaging app. It’s a freedom tool.
 
 How Sand Cat Works
+
 Sand Cat uses two core technologies from the NIST post-quantum cryptography standardization process:
-
-CRYSTALS-Kyber for key exchange (quantum-safe alternative to ECDH)
-
-CRYSTALS-Dilithium for digital signatures (verifiable authentication)
+- CRYSTALS-Kyber for key exchange (quantum-safe alternative to ECDH)
+- CRYSTALS-Dilithium for digital signatures (verifiable authentication)
 
 Here's the simplified flow:
 - A user creates a Bitcoin payment request, optionally including an amount and memo (following the BIP-21 standard)
